@@ -1,7 +1,9 @@
 :root {
   --menu-display: flex;
 }
-
+.p {
+  color: #e9e51f;
+}
 body {
   margin: 0;
   padding-top: 60px;
