@@ -5,15 +5,13 @@
   color: #e9e51f;
 }
 body {
-  margin: 0;
-  padding-top: 60px;
   background-color: rgb(47, 84, 109);
   text-decoration: #cbdd24;
   color: black;
 }
 
 #menuCheckBox,
-#menuLabel {
+#menuLab {
   display: none;
 }
 nav {
@@ -43,7 +41,7 @@ nav a:hover {
   background-color: grey;
 }
 
-#menuLabel {
+#menuLab {
   cursor: pointer;
 }
 
@@ -80,4 +78,9 @@ nav a:hover {
 
 body:has(#menuCheckBox:checked) {
   --menu-display: flex;
+}
+
+html {
+  margin: 0;
+  padding-top: 3 0px;
 }
