@@ -82,5 +82,5 @@ body:has(#menuCheckBox:checked) {
 
 html {
   margin: 0;
-  padding-top: 3 0px;
+  padding-top: 30px;
 }
