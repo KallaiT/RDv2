@@ -1,6 +1,10 @@
 :root {
   --menu-display: flex;
 }
+html {
+  margin: 0;
+  padding-top: 50px;
+}
 .p {
   color: #e9e51f;
 }
@@ -17,12 +21,12 @@ body {
 nav {
   background-color: rgb(0, 0, 0);
   text-align: center;
-  /height: 60px;
+  height: 60px;
 
   display: var(--menu-display);
   align-items: center;
   justify-content: center;
-
+  left: 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -78,9 +82,4 @@ nav a:hover {
 
 body:has(#menuCheckBox:checked) {
   --menu-display: flex;
-}
-
-html {
-  margin: 0;
-  padding-top: 30px;
 }
