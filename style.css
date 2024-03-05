@@ -28,6 +28,7 @@ nav {
   justify-content: center;
   left: 0;
   position: fixed;
+  right: 0;
   top: 0;
   width: 100%;
 }
@@ -47,6 +48,7 @@ nav a:hover {
 
 #menuLab {
   cursor: pointer;
+  left: 0;
 }
 
 @media screen and (max-width: 600px) {
